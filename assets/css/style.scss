@@ -230,11 +230,18 @@ a.navbar-item.is-active {
                 &:hover {
                     color: white;
                 }
-            }          
+            }
 
             figure {
-                border-radius: 0; /* Rimuove l'arrotondamento */
-            }            
+                border: 0px solid white;
+                border-radius: 50rem;
+                justify-content: center;
+                margin: auto;
+                transition: all 0.25s ease;
+                &:hover{
+                    transform: scale(1.15);
+                }
+            }
         }
     }
 
