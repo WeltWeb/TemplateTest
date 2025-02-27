@@ -2,18 +2,9 @@
 title: World Gasket Ellegi
 layout: post
 post-image: "https://i.ibb.co/27ZcsFSF/Capture.png"
-description: A sample post to show how the content will look and how will different
-  headlines, quotes and codes will be represented.
-tags:
-- sample
-- post
-- test
 ---
 
-World Gasket Ellegi produce guarnizioni industriali e ricambi per macchine movimento terra, garantendo qualità e innovazione dal 1977.
-* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-* [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
-* [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
+World Gasket Ellegi produce guarnizioni industriali e ricambi per macchine movimento terra. Fondata nel 1977, è specializzata nella lavorazione della gomma e nella produzione di componenti in gomma siliconica. Con sede a Grumello del Monte, è certificata UNI EN ISO 9001:2015. I suoi prodotti sono innovativi e affidabili, alternative valide agli originali.
 
 ---
 
