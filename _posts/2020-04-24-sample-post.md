@@ -1,7 +1,7 @@
 ---
-title: Sample Post
+title: World Gasket Ellegi
 layout: post
-post-image: "https://raw.githubusercontent.com/thedevslot/WhatATheme/master/assets/images/SamplePost.png?token=AHMQUEPC4IFADOF5VG4QVN26Z64GG"
+post-image: "https://i.ibb.co/27ZcsFSF/Capture.png"
 description: A sample post to show how the content will look and how will different
   headlines, quotes and codes will be represented.
 tags:
@@ -10,8 +10,7 @@ tags:
 - test
 ---
 
-This post will show you how the content will look like in the post pages and how the headlines, quotes and quotes will be represented. Jekyll is mainly used to write simple markdown and after that it renders out a static pages, so you need to know the basics of writing markdown for that.
-For more information about writing markdown you can checkout the following markdown cheatsheets:
+World Gasket Ellegi produce guarnizioni industriali e ricambi per macchine movimento terra, garantendo qualità e innovazione dal 1977.
 * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 * [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
 * [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
