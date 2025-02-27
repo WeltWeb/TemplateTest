@@ -232,9 +232,13 @@ a.navbar-item.is-active {
                 }
             }
 
+            figure.no-rounded {
+                border-radius: 0;
+            }            
+
             figure {
                 border: 1.5px solid white;
-                border-radius: 0;
+                border-radius: 50rem;
                 justify-content: center;
                 margin: auto;
                 transition: all 0.25s ease;
