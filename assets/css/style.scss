@@ -230,20 +230,11 @@ a.navbar-item.is-active {
                 &:hover {
                     color: white;
                 }
-            }
-
-            figure.no-rounded {
-                border-radius: 0;
-            }            
+            }          
 
             figure {
-                justify-content: center;
-                margin: auto;
-                transition: all 0.25s ease;
-                &:hover{
-                    transform: scale(1.15);
-                }
-            }
+                border-radius: 0; /* Rimuove l'arrotondamento */
+            }            
         }
     }
 
