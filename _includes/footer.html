@@ -1,8 +1,5 @@
 <footer id="footer">
     <!--Footer Button-->
-    <div class="container has-text-centered has-background-grey-darker" id="backtotop">
-        <a class="has-text-white" onclick="window.scroll(0,0)">Torna Su</a>
-    </div>
     <!--Footer Main Section-->
     <div class="has-background-grey-darker">
         <div class="container columns">
@@ -11,7 +8,7 @@
                 <a href="{{site.url}}{{site.baseurl}}/#chi-siamo">
                     <div class="columns">
                         <div class="column is-one-fifth-desktop is-one-fifth-fullhd is-one-quarter-tablet">
-                            <figure class="image is-64x64">
+                            <figure class="image">
                                 <img src="{{site.author-image}}">
                             </figure>
                         </div>
@@ -42,7 +39,7 @@
 
             <!--Blog-post Section-->
             <div class="column has-text-white">
-                <h3>Recent Posts</h3>
+                <h3>Siti Recenti</h3>
                 {% for post in site.posts offset: 0 limit:3 %}
                 <li>
                     <a href="{{post.url | absolute_url}}">{{post.title}}</a>
