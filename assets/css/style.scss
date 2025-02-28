@@ -70,12 +70,16 @@ a.navbar-item.is-active {
 
 #about {
     .image {
-        max-width: 175vmax;
+        max-width: 25vmax;
         margin: auto;
+
+        img {
+            max-width: 115vmax;
+        }
     }
 
     a {
-        min-width: 175vmax;
+        min-width: 25vmax;
         margin: 0.5rem;
     }
 }
