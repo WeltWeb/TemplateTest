@@ -1,17 +1,18 @@
 <nav class="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation" id="navbar">
     <div class="container">
 
-        <div class="navbar-brand" style="position: relative;">
+        <!-- logo or branding image on left side -->
+        <div class="navbar-brand">
             <a class="navbar-item"
                 href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
-                <img src="https://i.ibb.co/gLTSvXBY/WeltWeb.png" alt="Logo di {{site.title}}" class="navbar-logo">
+                <img src="https://i.ibb.co/gLTSvXBY/WeltWeb.png" alt="Logo di {{site.title}}" style="max-height: 60px;">
             </a>
             <div class="navbar-burger" data-target="navbar-menu">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
-        </div>            
+        </div>        
 
         <!-- children of navbar-menu must be navbar-start and/or navbar-end -->
         <div class="navbar-menu has-background-black" id="navbar-menu">
