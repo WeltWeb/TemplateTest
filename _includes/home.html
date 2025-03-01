@@ -1,5 +1,13 @@
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+  <style>
+    @font-face {
+        font-family: 'Cinzel Decorative';
+        src: url('/assets/fonts/CinzelDecorative-Bold.woff2') format('woff2'),
+             url('/assets/fonts/CinzelDecorative-Bold.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+</style>
 </head>
 
 <section class="hero is-fullheight has-text-centered" id="hero">
@@ -7,7 +15,7 @@
   <div class="container">
     <h1 class="title has-text-white is-size-1 is-uppercase has-text-weight-bold" style="font-family: 'Cinzel Decorative', serif;">
       {{site.title}}
-    </h1>
+  </h1>  
     <h3 class="subtitle has-text-white-bis is-uppercase has-text-weight-medium is-marginless">
       {{site.description}}
     </h3>
