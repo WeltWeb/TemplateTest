@@ -23,6 +23,12 @@ a.navbar-item:hover,
     color: white !important;
 }
 
+.navbar-logo {
+    max-height: 100px; /* Aumenta questa dimensione per far sforare il logo */
+    position: absolute;
+    top: -20px; /* Sposta il logo verso l'alto */
+}
+
 a.navbar-item.is-active {
     background-color: rgba($color: #fff, $alpha: 0.25) !important;
     color: white !important;
