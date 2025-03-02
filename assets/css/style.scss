@@ -41,6 +41,17 @@ a.navbar-item.is-active {
     border-color: grey;
 }
 
+
+.icon-text {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
 .icon i {
     vertical-align: middle;
 }
