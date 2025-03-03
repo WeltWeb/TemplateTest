@@ -8,19 +8,39 @@
         font-style: normal;
     }
   </style>
+  
+  <!-- Typed.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" defer></script>
 </head>
 
 <section class="hero is-fullheight has-text-centered" id="hero">
-<div class="hero-body">
-  <div class="container">
-    <h1 class="title has-text-white is-size-1 has-text-weight-bold" style="font-family: 'Cinzel Decorative', serif;">
-      WeltWeb
-  </h1>  
-    <h3 class="subtitle has-text-white-bis is-uppercase has-text-weight-medium is-marginless">
-      {{site.description}}
-    </h3>
-    <hr>
-    <a href="{{site.url}}{{site.baseurl}}/#chi-siamo" class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">Chi Siamo</a>
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title has-text-white is-size-1 has-text-weight-bold" style="font-family: 'Cinzel Decorative', serif;">
+        WeltWeb
+      </h1>  
+
+      <!-- Testo animato con Typed.js -->
+      <h3 class="subtitle has-text-white-bis is-uppercase has-text-weight-medium is-marginless">
+        <span id="typed-text"></span>
+      </h3>
+
+      <hr>
+      <a href="{{site.url}}{{site.baseurl}}/#chi-siamo" class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">
+        Chi Siamo
+      </a>
+    </div>
   </div>
-</div>
 </section>
+
+<!-- Script per Typed.js -->
+<script defer>
+  document.addEventListener("DOMContentLoaded", function () {
+    new Typed("#typed-text", {
+      strings: ["Esperienze digitali uniche", "Eleva il tuo sito web con noi", "Migliora la vetrina del tuo business", "Diamo vita alle tue idee"],
+      typeSpeed: 50,    // Velocità di digitazione
+      backSpeed: 30,    // Velocità di cancellazione
+      loop: true        // Ripete all'infinito
+    });
+  });
+</script>
