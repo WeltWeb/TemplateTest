@@ -7,9 +7,9 @@
     <div class="hero-body">
         <div class="container">
             <div class="columns">
-                <div class="column is-half is-half-desktop is-half-tablet is-half-fullhd is-half-widescreen">
+                <div data-aos="fade-up" class="column is-half is-half-desktop is-half-tablet is-half-fullhd is-half-widescreen">
                     <!-- Aggiungi data-aos per l'animazione sull'immagine -->
-                    <figure class="image" data-aos="fade-up">
+                    <figure class="image">
                         <img class="image" src="https://www.irocwebs.com/wp-content/uploads/2022/06/home-imac-1999636.png" alt="{{site.author-name}}">
                     </figure>
                 </div>
@@ -30,17 +30,8 @@
             </div>
         </div>
     </div>
-    <script>
-        // Assicurati che AOS venga inizializzato correttamente
-        document.addEventListener("DOMContentLoaded", function () {
-          AOS.init();
-          
-          // Verifica che AOS sia stato caricato correttamente
-          if (typeof AOS !== 'undefined') {
-            console.log('AOS è stato caricato correttamente!');
-          } else {
-            console.error('AOS non è stato caricato!');
-          }
-        });
-      </script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </section>
