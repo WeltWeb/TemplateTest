@@ -30,18 +30,17 @@
             </div>
         </div>
     </div>
+    <script>
+        // Assicurati che AOS venga inizializzato correttamente
+        document.addEventListener("DOMContentLoaded", function () {
+          AOS.init();
+          
+          // Verifica che AOS sia stato caricato correttamente
+          if (typeof AOS !== 'undefined') {
+            console.log('AOS è stato caricato correttamente!');
+          } else {
+            console.error('AOS non è stato caricato!');
+          }
+        });
+      </script>
 </section>
-
-<script>
-  // Assicurati che AOS venga inizializzato correttamente
-  document.addEventListener("DOMContentLoaded", function () {
-    AOS.init();
-    
-    // Verifica che AOS sia stato caricato correttamente
-    if (typeof AOS !== 'undefined') {
-      console.log('AOS è stato caricato correttamente!');
-    } else {
-      console.error('AOS non è stato caricato!');
-    }
-  });
-</script>
