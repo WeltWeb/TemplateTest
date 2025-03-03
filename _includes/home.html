@@ -10,7 +10,7 @@
   </style>
   
   <!-- Typed.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 
 <section class="hero is-fullheight has-text-centered" id="hero">
@@ -35,10 +35,14 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    // Verifica se l'elemento #typed-text esiste prima di eseguire Typed.js
     if (document.querySelector("#typed-text")) {
       new Typed("#typed-text", {
-        strings: ["Esperienze digitali uniche", "Eleva il tuo sito web con noi", "Migliora la vetrina del tuo business", "Diamo vita alle tue idee"],
+        strings: [
+          "Esperienze digitali uniche", 
+          "Eleva il tuo sito web con noi", 
+          "Migliora la vetrina del tuo business", 
+          "Diamo vita alle tue idee"
+        ],
         typeSpeed: 50,
         backSpeed: 30,
         loop: true
