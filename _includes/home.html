@@ -10,7 +10,7 @@
   </style>
   
   <!-- Typed.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 </head>
 
 <section class="hero is-fullheight has-text-centered" id="hero">
@@ -33,14 +33,18 @@
   </div>
 </section>
 
-<!-- Script per Typed.js -->
-<script defer>
+<script>
   document.addEventListener("DOMContentLoaded", function () {
-    new Typed("#typed-text", {
-      strings: ["Esperienze digitali uniche", "Eleva il tuo sito web con noi", "Migliora la vetrina del tuo business", "Diamo vita alle tue idee"],
-      typeSpeed: 50,    // Velocità di digitazione
-      backSpeed: 30,    // Velocità di cancellazione
-      loop: true        // Ripete all'infinito
-    });
+    // Verifica se l'elemento #typed-text esiste prima di eseguire Typed.js
+    if (document.querySelector("#typed-text")) {
+      new Typed("#typed-text", {
+        strings: ["Esperienze digitali uniche", "Eleva il tuo sito web con noi", "Migliora la vetrina del tuo business", "Diamo vita alle tue idee"],
+        typeSpeed: 50,
+        backSpeed: 30,
+        loop: true
+      });
+    } else {
+      console.error("Elemento #typed-text non trovato!");
+    }
   });
 </script>
