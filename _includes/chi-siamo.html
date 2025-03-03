@@ -1,5 +1,6 @@
 <section class="hero is-fullheight has-text-centered has-background-white-ter" id="chi-siamo">
     {% include head.html %}
+    
     <!-- AOS JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
@@ -13,7 +14,7 @@
                     </figure>
                 </div>
                 <div class="column is-half is-offset-1 is-half-desktop is-half-tablet is-half-fullhd is-half-widescreen has-text-centered-desktop has-text-centered-tablet has-text-centered-fullhd has-text-centered-widescreen">
-                    <p>Siamo specialisti nella creazione di siti web su misura, la vetrina digitale perfetta per il tuo business. Offriamo design innovativi, sviluppi personalizzati e un’assistenza discreta per ogni tua esigenza, dalla gestione delle caselle email e dei domini fino al mantenimento e all’ottimizzazione del sito, garantendo sempre performance elevate e sicurezza.</p>
+                    <p>Siamo specialisti nella creazione di siti web su misura...</p>
                     <br>
                     <div class="container columns is-two-fifths is-two-fifths-desktop is-two-fifths-tablet is-two-fifths-fullhd is-two-fifths-widescreen is-multiline is-offset-is-half is-centered">
                         <div>
@@ -32,12 +33,15 @@
 </section>
 
 <script>
-  // Inizializzazione di AOS
-  AOS.init();
-
-  if (typeof AOS !== 'undefined') {
-    console.log('AOS è stato caricato correttamente!');
-  } else {
-    console.error('AOS non è stato caricato!');
-  }
+  // Assicurati che AOS venga inizializzato correttamente
+  document.addEventListener("DOMContentLoaded", function () {
+    AOS.init();
+    
+    // Verifica che AOS sia stato caricato correttamente
+    if (typeof AOS !== 'undefined') {
+      console.log('AOS è stato caricato correttamente!');
+    } else {
+      console.error('AOS non è stato caricato!');
+    }
+  });
 </script>
