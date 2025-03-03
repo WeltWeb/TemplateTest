@@ -11,26 +11,31 @@
   
   <!-- Typed.js -->
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <section class="hero is-fullheight has-text-centered" id="hero">
   <div class="hero-body">
     <div class="container">
-      <h1 class="title has-text-white is-size-1 has-text-weight-bold" style="font-family: 'Cinzel Decorative', serif;">
+      <h1 data-aos="fade-up" class="title has-text-white is-size-1 has-text-weight-bold" style="font-family: 'Cinzel Decorative', serif;">
         WeltWeb
       </h1>  
 
       <!-- Testo animato con Typed.js -->
-      <h3 class="subtitle has-text-white-bis is-uppercase has-text-weight-medium is-marginless">
+      <h3 data-aos="fade-up" class="subtitle has-text-white-bis is-uppercase has-text-weight-medium is-marginless">
         <span id="typed-text"></span>
       </h3>
 
       <hr>
-      <a href="{{site.url}}{{site.baseurl}}/#chi-siamo" class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">
+      <a data-aos="fade-up" href="{{site.url}}{{site.baseurl}}/#chi-siamo" class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">
         Chi Siamo
       </a>
     </div>
   </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </section>
 
 <script>
