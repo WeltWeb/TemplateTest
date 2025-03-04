@@ -1,15 +1,19 @@
 {% include head.html %}
 
-<div class="columns has-text-centered" id="blog-card" 
+<div data-aos="fade-up" class="columns has-text-centered" id="blog-card" 
     onclick="window.open('{{ post.redirect_url }}', '_blank')"
      style="cursor: pointer;">
-    <div class="column is-marginless is-paddingless is-one-third-desktop is-one-third-fullhd is-one-third-tablet">
-        <div class="image is-16by9" style="background-image: url({{post.post-image}});"></div>
+    <div data-aos="fade-up" class="column is-marginless is-paddingless is-one-third-desktop is-one-third-fullhd is-one-third-tablet">
+        <div data-aos="fade-up" class="image is-16by9" style="background-image: url({{post.post-image}});"></div>
     </div>
-    <div class="column has-text-left-desktop has-text-left-tablet has-text-left-mobile has-text-left-fullhd has-text-left-fullhd has-text-left-widescreen">
-        <h1 class="title is-size-4-touch">{{ post.title }}</h1>
-        <div class="content has-text-grey">
+    <div data-aos="fade-up" class="column has-text-left-desktop has-text-left-tablet has-text-left-mobile has-text-left-fullhd has-text-left-fullhd has-text-left-widescreen">
+        <h1 data-aos="fade-up" class="title is-size-4-touch">{{ post.title }}</h1>
+        <div data-aos="fade-up" class="content has-text-grey">
             {{ post.content | strip_html | strip_newlines | strip | escape }}
         </div>
     </div>
 </div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
